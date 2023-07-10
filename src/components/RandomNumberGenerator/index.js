@@ -7,7 +7,7 @@ class RandomNumberGenerator extends Component{
 
     onIncreament=()=>{
         const randomNumber=this.getRandomNumber()
-        this.setState((prevState)=>({count: prevState.count+randomNumber}))
+        this.setState({count:randomNumber})
     }
     render(){
         const{count}=this.state
