@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png");
+    background-size: cover;
+    height: 100vh;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    width: 80%;
+    border-radius: 16px;
+    padding: 36px;
+    border: 1px #e4ebf3;
+    box-shadow: 0px 4px 16px 0px #eaebed;
+}
+.heading{
+   color: #0b69ff;
+   font-family: Roboto;
+   font-size: 24px;
+   font-weight: 700; 
+}
+.para{
+    color: #333333;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.button{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    background-color: #0b69ff;
+    border-color: #0b69ff;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+.count{
+    color: #0b69ff;
+    font-size: 50px;
+    font-weight: 700;
+}
+@media screen and (min-width:768px){
+    .sub-container{
+        width: 35%;
+        max-width: 500px;
+    }
+}
